@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main_layout.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="./dp/0p.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/1.avif">
+            <div class="video-time">2:14:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/1p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                #AskAbhijit 232: Ranveer Allahbadia, Free Speech, Ukraine War, Trump-Modi, F35, Su-57, Rohingyas, AI
+              </p>
+              <p class="video-author">
+                Abhijit Chavda
+              </p>
+              <p class="video-stats">
+                60k views &#183; Streamed 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/2.avif">
+            <div class="video-time">15:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/2p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                We Bought MOVIES on VINYL RECORDS and They’re AMAZING - SelectaVision CED VideoDisc
+              </p>
+              <p class="video-author">
+                Linus Tech Tips
+              </p>
+              <p class="video-stats">
+                19k views &#183; 1 hour ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/3.avif">
+            <div class="video-time">16:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/3p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Chhaava BREAKS Records | Is Bollywood FINALLY Learning From South Cinema?
+              </p>
+              <p class="video-author">
+                The Sham Sharma Show
+              </p>
+              <p class="video-stats">
+                642k views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/4.avif">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/4p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                42M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/5.avif">
+            <div class="video-time">1:06:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/5p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                FULL MATCH - 2020 Men’s Royal Rumble Match: Royal Rumble 2020
+              </p>
+              <p class="video-author">
+                WWE
+              </p>
+              <p class="video-stats">
+                149M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/6.avif">
+            <div class="video-time">8:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/6p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                'Puts Food On Our Table...', Jaishankar SCHOOLS West On Democracy, Calls Out 'Double Standards'
+              </p>
+              <p class="video-author">
+                Mint
+              </p>
+              <p class="video-stats">
+                1.7M views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/7.avif">
+            <div class="video-time">10:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/7p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                FAMILY GUY MOST OFFENSIVE JOKES (PART 2)
+              </p>
+              <p class="video-author">
+                Sidemen Reacts
+              </p>
+              <p class="video-stats">
+                20M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/8.avif">
+            <div class="video-time">8:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/8p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Porsche 992 GT3 Black Forest Drive | RAW Sound
+              </p>
+              <p class="video-author">
+               SoulDrives
+              </p>
+              <p class="video-stats">
+                2.5M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/9.avif">
+            <div class="video-time">9:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/9p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Pixel 7a at ₹24,999: Makes Sense or NOT?
+              </p>
+              <p class="video-author">
+                Sillycorns
+              </p>
+              <p class="video-stats">
+                410K views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/10.avif">
+            <div class="video-time">21:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/10p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                B-1 Lancer | The Most Powerful Bomber Ever Built
+              </p>
+              <p class="video-author">
+                sam Eckholm
+              </p>
+              <p class="video-stats">
+                2.2M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/11.avif">
+            <div class="video-time">24:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/11p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Visiting @ModxComputers  – Building Gaming & Workstation PC! Intel Core Ultra 9 RTX 4070 Super
+              </p>
+              <p class="video-author">
+                Venom's Tech
+              </p>
+              <p class="video-stats">
+                208K views &#183; 6 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/12.avif">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="./dp/12p.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Echoes of Ancient Thieves | Lost Treasures Of Egypt | हिंदी | S3 - E7 | Nat Geo
+              </p>
+              <p class="video-author">
+                National Geographic India
+              </p>
+              <p class="video-stats">
+                4.4M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
